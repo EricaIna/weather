@@ -1,8 +1,5 @@
-const dotenv = require("dotenv");
-dotenv.config();
-
-// APIキーを環境変数から取得
-const apiKey = process.env.API_KEY;
+const apiKey = config.apikey;
+//console.log(apiKey);
 
 const apiUrl =
   "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
